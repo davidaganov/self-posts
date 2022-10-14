@@ -18,11 +18,11 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.davidaganov.self-posts",
+      "bundleIdentifier": "com.davidaganov.selfposts",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.davidaganov.self-posts",
+      "package": "com.davidaganov.selfposts",
       "versionCode": 1
     },
     "web": {
