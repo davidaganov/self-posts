@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Self Posts",
+    "slug": "self-posts",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/favicons/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/favicons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.davidaganov.self-posts",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.davidaganov.self-posts",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/images/favicons/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
