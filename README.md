@@ -6,4 +6,4 @@ This is my first attempt to create an application using the React Native library
 
 ## Credits
 
-Author: [David Aganov](https://github.com/davidaganov21)
+Author: [David Aganov](https://github.com/davidaganov)
